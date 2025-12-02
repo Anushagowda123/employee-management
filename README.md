@@ -1,9 +1,9 @@
-**EMPLOYEE MANAGEMENT SYSTEM (Go + Gin + MySQL)
+EMPLOYEE MANAGEMENT SYSTEM (Go + Gin + MySQL)
 
 ->A simple Employee Management REST API built using Golang, Gin Web Framework and MySQL. 
 ->This project implements a clean folder structure using Separation of Concerns the Repository Pattern, and proper layered architecture.
 
-**FEATURES IMPLEMENTED
+FEATURES IMPLEMENTED
 
 - Create a new employee (POST)
 - Get a list of all employees (GET)
@@ -12,7 +12,7 @@
 - Modular folder structure using handlers, models, repository, and DB layers
 - Fully tested using Postman
 
- ** PROJECT FOLDER STRUCTURE
+ PROJECT FOLDER STRUCTURE
 
 employee-management/
 ├── go.mod
@@ -31,14 +31,14 @@ employee-management/
 └── db/
 └── db.go              (MySQL connection & DB operations)
 
-** TECHNOLOGIES USED
+TECHNOLOGIES USED
 
 ->Go 1.20+
 ->Gin Web Framework
 ->MySQL (XAMPP)
 ->Postman for API testing
 
- **DATABASE SETUP
+ DATABASE SETUP
 
  1. Start MySQL
 ->Open XAMPP
@@ -59,7 +59,7 @@ CREATE TABLE employees (
   salary INT
 );
 
-**RUNNING THE APPLICATION
+RUNNING THE APPLICATION
 
 ->Open VS Code terminal inside the project folder:
 cd employee-management
@@ -68,7 +68,7 @@ cd employee-management
 [GIN-debug] Listening and serving HTTP on :8081
 Your API is live at:http://localhost:8081
 
-**API ENDPOINTS (Use Postman)
+API ENDPOINTS (Use Postman)
 
 ➤ Create Employee
 ->POST
@@ -87,7 +87,7 @@ GET:http://localhost:8081/employees/1
 ->Delete Employee
 DELETE:http://localhost:8081/employees/1
 
-**TROUBLESHOOTING
+TROUBLESHOOTING
 
 -> MySQL connection refused
 
@@ -104,7 +104,7 @@ AUTO_INCREMENT
 Change port in main.go:router.Run(":8081")
 
 
-**SUBMISSION
+SUBMISSION
 
 My public GitHub repository link:
 
