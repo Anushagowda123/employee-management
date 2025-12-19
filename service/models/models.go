@@ -1,8 +1,12 @@
 package models
 
+import "time"
+
 type Employee struct {
-	ID       int    `db:"id" json:"id"`
-	Name     string `db:"name" json:"name"`
-	Position string `db:"position" json:"position"`
-	Salary   int    `db:"salary" json:"salary"`
+	ID         int       `json:"id"`
+	Name       string    `json:"name"`
+	Email      string    `json:"email"`
+	Department string    `json:"department"`
+	Salary     float64   `json:"salary"`
+	CreatedAt  time.Time `json:"created_at"`
 }
